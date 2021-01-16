@@ -3,7 +3,7 @@ import datetime
 def printTimeStamp(name):
     print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
-printTimeStamp('Пікула. Погорілий')
+printTimeStamp('Пікула')
 
 a = int(input("Скільки штучок?"))
 b = int(input("Скільки штукенцій?"))
